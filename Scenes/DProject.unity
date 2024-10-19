@@ -2015,13 +2015,8 @@ GameObject:
   - component: {fileID: 1616678508}
   - component: {fileID: 1616678507}
   - component: {fileID: 1616678506}
-<<<<<<< HEAD
   - component: {fileID: 1616678505}
   - component: {fileID: 1616678510}
-=======
-  - component: {fileID: 1616678510}
-  - component: {fileID: 1616678511}
->>>>>>> 18fcc6bba10cfa82752754060d53ce665bcdedf0
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -2029,7 +2024,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!114 &1616678505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2068,8 +2062,6 @@ MonoBehaviour:
   delayForSmashGroundAgain: 0.5
   lockRotation: 0
   setPlayerInputBufferTime: 0.04
-=======
->>>>>>> 18fcc6bba10cfa82752754060d53ce665bcdedf0
 --- !u!114 &1616678506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2170,47 +2162,6 @@ MonoBehaviour:
   ceilingAngleLimit: 10
   angle: 0
   isInDebugMode: 1
-<<<<<<< HEAD
-=======
---- !u!114 &1616678511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616678504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ef295e244b6f4f91a0681564e5008aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: 0ad56e1f1df9242679391cf0b10d84a4, type: 2}
-  cameraTransform: {fileID: 1121146305}
-  turnToward: {fileID: 1638665567}
-  ceilingDetector: {fileID: 0}
-  useLocalMomentum: 0
-  movementSpeed: 7
-  jumpSpeed: 10
-  dashSpeed: 35
-  maxFallSpeed: 77
-  fallAcceleration: 2
-  airControlRate: 2
-  airFriction: 0.5
-  groundFriction: 100
-  gravity: 60
-  slideGravity: 5
-  slopeLimit: 30
-  jumpDuration: 1.5
-  jumpCountdown: 0
-  fallDuration: 0
-  dashDuration: 0.1
-  delayForResetDash: 10
-  maxDashInBetweenDuration: 6
-  debuffDelay: 5
-  delayForSmashGroundAgain: 1
-  lockRotation: 0
-  setPlayerInputBufferTime: 0.1
->>>>>>> 18fcc6bba10cfa82752754060d53ce665bcdedf0
 --- !u!1 &1638665565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,11 +2207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f238fdb7fa0448ba6cb31cedf07b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   controller: {fileID: 1616678505}
-=======
-  controller: {fileID: 0}
->>>>>>> 18fcc6bba10cfa82752754060d53ce665bcdedf0
   turnSpeed: 1300
   tr: {fileID: 0}
 --- !u!1 &1669097894
