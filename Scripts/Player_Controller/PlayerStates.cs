@@ -67,6 +67,7 @@ namespace Player_Controller
                 controller.OnFallStart();
             }
         }
+
         public void OnExit()
         {
             controller.fallDuration = 0;
@@ -81,6 +82,7 @@ namespace Player_Controller
         {
             this.controller = controller;
         }
+
         public void OnEnter()
         {
             controller.OnGroundContactLost();
@@ -103,6 +105,7 @@ namespace Player_Controller
             controller.OnGroundContactLost();
             controller.OnJumpStart();
         }
+
         public void OnExit()
         {
             // controller.jumpStateDuration = 0;
@@ -123,6 +126,7 @@ namespace Player_Controller
             controller.fallDuration = Time.time;
             controller.HandleSmashGround();
         }
+
         public void OnExit()
         {
             controller.fallDuration = 0;

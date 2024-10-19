@@ -77,7 +77,7 @@ namespace Player_Controller
         public Vector3 GetGroundNormal() => sensor.GetNormal();
 
         // NOTE: Unity 6 versions rb.linearVelocity instead
-        public void SetVelocity(Vector3 velocity) => rb.linearVelocity = velocity + currentGroundAdjustmentVelocity;
+        public void SetVelocity(Vector3 velocity) => rb.velocity = velocity + currentGroundAdjustmentVelocity;
         public void SetExtendSensorRange(bool isExtended) => isUsingExtendedSensorRange = isExtended;
 
         void Setup()

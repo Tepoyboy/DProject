@@ -9,6 +9,7 @@ public class AngleFlip : MonoBehaviour
             FlipDirection(transform.forward, col.transform);
         }
     }
+
     void FlipDirection(Vector3 newUpDirection, Transform tr)
     {
         var angleBetweenUpDirections = Vector3.Angle(newUpDirection, tr.up);
@@ -17,7 +18,6 @@ public class AngleFlip : MonoBehaviour
         if (angleBetweenUpDirections < angleThreshold) return;
 
         var rotationDifference = Quaternion.FromToRotation(tr.up, newUpDirection);
-        //
         tr.rotation = rotationDifference * tr.rotation;
     }
 }

@@ -15,7 +15,6 @@ namespace Player_Controller
         void Start()
         {
             tr = transform;
-
             currentYRotation = tr.localEulerAngles.y;
         }
 
@@ -26,13 +25,11 @@ namespace Player_Controller
             if (velocity.magnitude < 0.001f) return;
 
             float angleDifference = VectorMath.GetAngle(tr.forward, velocity.normalized, tr.parent.up);
-
             float step = Mathf.Sign(angleDifference) *
-            Mathf.InverseLerp(0f, fallOffAngle, Mathf.Abs(angleDifference)) *
-            Time.deltaTime * turnSpeed;
+                         Mathf.InverseLerp(0f, fallOffAngle, Mathf.Abs(angleDifference)) *
+                         Time.deltaTime * turnSpeed;
 
             currentYRotation += Mathf.Abs(step) > Mathf.Abs(angleDifference) ? angleDifference : step;
-
             tr.localRotation = Quaternion.Euler(0f, currentYRotation, 0f);
         }
     }
