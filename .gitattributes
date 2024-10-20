@@ -1,0 +1,30 @@
+# Unity serialized files should use LF line endings
+*.unity   text eol=lf
+*.prefab  text eol=lf
+*.asset   text eol=lf
+
+# C# scripts should use LF line endings
+*.cs      text eol=lf
+
+# Binary files (no line ending conversion)
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.fbx     binary
+*.meta    binary
+*.dll     binary
+*.exe     binary
+*.ttf     binary
+*.svg     binary
+*.wav     binary
+*.mp3     binary
+*.ogg     binary
+*.anim    binary
+*.controller binary
+*.shader  binary
+*.cginc   binary
+
+# General text files should use LF line endings
+*.txt     text eol=lf
+*.md      text eol=lf
